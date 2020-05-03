@@ -1,0 +1,15 @@
+[i] Philip told command.
+
+[t] Trainee laid down.
+
+[s] Michael laid down.
+[s] Silvia laid down.
+[s] Nikolai laid down.
+
+[i] Philip told command.
+
+[t] Trainee standed up.
+
+[s] Michael standed up.
+[s] Silvia standed up.
+[s] Nikolai standed up.
