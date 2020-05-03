@@ -1,6 +1,6 @@
 [i] Philip told command.
 
-[t] Trainee laid down.
+[t] George laid down.
 
 [s] Michael laid down.
 [s] Silvia laid down.
@@ -8,7 +8,7 @@
 
 [i] Philip told command.
 
-[t] Trainee standed up.
+[t] George standed up.
 
 [s] Michael standed up.
 [s] Silvia standed up.

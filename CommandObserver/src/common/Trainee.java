@@ -36,9 +36,9 @@ public class Trainee implements Observable{
 	
 	private void printExercise() {
 		if(layingDown) 
-			System.out.println("[t] " + "Trainee laid down.");
+			System.out.println("[t] " + getName() +" laid down.");
 		else
-			System.out.println("[t] " + "Trainee standed up.");
+			System.out.println("[t] " + getName() + " standed up.");
 		
 		
 		System.out.println();
