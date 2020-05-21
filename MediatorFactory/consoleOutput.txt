@@ -11,7 +11,7 @@
  + George sent: cat
 	-Phill received:cat
 	-Natalia received:cat
-	-Phill received: BOT[cat] removed: George from chat.
-	-Natalia received: BOT[cat] removed: George from chat.
+	-Phill received: BOT[cat] removed: George from chat. The word cat is forbidden.
+	-Natalia received: BOT[cat] removed: George from chat. The word cat is forbidden.
  + Phill sent: Have a nice day!
 	-Natalia received:Have a nice day!

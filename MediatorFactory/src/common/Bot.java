@@ -44,15 +44,15 @@ public class Bot implements Participant {
 	public boolean isMessageValid(String msg, Participant participant) {
 		if (isForbidden(msg)) {
 			this.mediator.removeParticipant(participant);
-			informUsers(participant.getName());
+			informUsers(participant.getName(), msg);
 			return false;
 		}
 		return true;
 		
 	}
 	
-	private void informUsers(String name) {
-		this.mediator.sendMessage(" " + this.name + " removed: " + name + " from chat.", this);		
+	private void informUsers(String name, String message) {
+		this.mediator.sendMessage(" " + this.name + " removed: " + name + " from chat. The word " + message + " is forbidden.", this);		
 	}
 
 	@Override
