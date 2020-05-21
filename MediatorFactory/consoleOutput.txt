@@ -1,0 +1,17 @@
+ + Phill sent: Hello
+	-George received:Hello
+	-Natalia received:Hello
+ + George sent: Hi Phill
+	-Phill received:Hi Phill
+	-Natalia received:Hi Phill
+ + Natalia sent: addBot cat
+ + Phill sent: Hi Natalia
+	-George received:Hi Natalia
+	-Natalia received:Hi Natalia
+ + George sent: cat
+	-Phill received:cat
+	-Natalia received:cat
+	-Phill received: BOT[cat] removed: George from chat.
+	-Natalia received: BOT[cat] removed: George from chat.
+ + Phill sent: Have a nice day!
+	-Natalia received:Have a nice day!
