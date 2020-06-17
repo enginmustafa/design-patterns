@@ -1,0 +1,48 @@
+-------- Initiazlization --------
+
+[PLOVDIV] is now WAITING_NEXT_CLIENT
+[BG] is now WAITING_NEXT_CLIENT
+[I] is now WAITING_NEXT_CLIENT
+
+---------------------------------
+
+***** ORDER 1 - LEVEL 1 *****
+
+Order with level 1 is being processed by [PLOVDIV]
+[PLOVDIV] has taken the order.
+[PLOVDIV] is now PREPARING_SHIPMENT
+[WW] got package from [PLOVDIV] and headed to the warehouse.
+[PLOVDIV] is now WAITING_NEXT_CLIENT
+
+***** ORDER 2 - LEVEL 2 *****
+
+Order with level 2 is being processed by [PLOVDIV]
+[PLOVDIV] could not handle it.
+
+Order with level 2 is being processed by [BG]
+[BG] has taken the order.
+[BG] is now PREPARING_SHIPMENT
+[WW] got package from [BG] and headed to the warehouse.
+[BG] is now WAITING_NEXT_CLIENT
+
+***** ORDER 3 - LEVEL 2 *****
+
+Order with level 2 is being processed by [BG]
+[BG] has taken the order.
+[BG] is now PREPARING_SHIPMENT
+[WW] got package from [BG] and headed to the warehouse.
+[BG] is now WAITING_NEXT_CLIENT
+
+***** ORDER 4 - LEVEL 3 *****
+
+Order with level 3 is being processed by [PLOVDIV]
+[PLOVDIV] could not handle it.
+
+Order with level 3 is being processed by [BG]
+[BG] could not handle it.
+
+Order with level 3 is being processed by [I]
+[I] has taken the order.
+[I] is now PREPARING_SHIPMENT
+[WW] got package from [I] and headed to the warehouse.
+[I] is now WAITING_NEXT_CLIENT
